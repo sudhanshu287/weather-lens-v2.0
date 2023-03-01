@@ -7,9 +7,8 @@ import "./MainWeatherDetail.css";
 const MainWeatherDetail = ({
   weather: { details, icon, temp, timezone, dt, name, country },
 }) => {
-  const styleGradient={
-    background: 'rgb(13,0,36)',
-background: "url('https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')",backgroundSize:'cover',backgroundRepeat:'no-repeat',opacity:'1',
+  const styleGradient = {
+    backgroundImage: "url('https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
   }
   return (
     <div className="mainWeatherDetail" style={styleGradient}>

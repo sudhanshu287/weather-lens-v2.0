@@ -7,11 +7,14 @@ import "react-toastify/dist/ReactToastify.css";
 import About from './components/About';
 import Contact from './components/Contact';
 
+
+
 const App = () => {
   return (
     <>
     <Navbar/>
     <WeatherDetail/>
+    
     <About/>
     <Contact/>
     <Footer/>
