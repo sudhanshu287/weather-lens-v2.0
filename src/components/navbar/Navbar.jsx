@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 const Navbar = () => {
     const [openNav,setOpenNav]=useState(false);
-    const [theme,setTheme]=useState(false);
-    
   return (
     
     <header className='header' >
         <nav className='container nav'>
-        <a href="/" className="navLogo"><strong>Weather Lens</strong></a>
+        <a href="/" className="navLogo"><i className="ri-sun-foggy-fill logoIcon"></i><strong>Weather Lens</strong></a>
         <div className={openNav ? "navMenu open":"navMenu"}>
             <ul className="navList grid">
                 <li className="navListItem"><a href="/" className='navLink'>Home</a></li>
@@ -18,8 +16,6 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="navButtons">
-
-        <i class="ri-moon-line themeIcon" onClick={()=>{setTheme(!theme)}} ></i>
         <div className="navToggle">
         <i className={!openNav?"ri-menu-4-line navIcon":"ri-close-fill navIcon"} onClick={()=>setOpenNav(!openNav)}></i>
         </div>

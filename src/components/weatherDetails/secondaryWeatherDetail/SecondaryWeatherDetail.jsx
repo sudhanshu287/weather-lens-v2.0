@@ -1,6 +1,6 @@
 import React from 'react'
 import './SecondaryWeatherDetail.css';
-import { formatToLocalTime } from '../services/weatherServices';
+import { formatToLocalTime } from '../../../services/weatherServices';
 
 const SecondaryWeatherDetail = ({
     weather: {

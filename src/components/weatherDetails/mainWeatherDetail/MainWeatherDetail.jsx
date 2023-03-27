@@ -2,7 +2,7 @@ import React from "react";
 import {
   formatToLocalTime,
   iconUrlFromCode,
-} from "../services/weatherServices";
+} from "../../../services/weatherServices";
 import "./MainWeatherDetail.css";
 const MainWeatherDetail = ({
   weather: { details, icon, temp, timezone, dt, name, country },

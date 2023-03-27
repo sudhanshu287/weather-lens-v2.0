@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
-        <div className="footerContainer container">
+        <div className="footerContainer">
             <div >
                 <h2 className='footerTitle'>Weather Lens</h2>
                 <p className="footerSubtitle">A Weather Condition Providing Platform.</p>
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footerCopyright">
-        <p>&#169; copyright 2023 All rights reserved. Made with &#10084;&#65039; By <a href="https://sudhanshu-portfolio-sdn.netlify.app/">Sudhanshu
+        <p>&#169; copyright 2023 All rights reserved. Made with &#10084;&#65039; By <a href="https://sudhanshu-portfolio-sdn.netlify.app/" target="__blank">Sudhanshu
                     Patel</a>.</p>
         </div>
     </footer>

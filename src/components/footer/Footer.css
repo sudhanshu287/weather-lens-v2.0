@@ -1,13 +1,16 @@
 .footer {
     background-color: var(--first-color-alt);
     font-family: var(--font);
+    margin-top: 10rem;
+    margin-bottom: 0;
 }
 
 
 .footerContainer {
-    margin-top: 10rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    max-width:1200px;
+    margin:0 auto;
     display: grid;
     gap: 2rem;
     grid-template-columns: 2fr 1fr 1fr;
@@ -52,12 +55,15 @@
 @media screen and (max-width:767px) {
     .footerContainer {
         grid-template-columns: 1fr;
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
     }
 }
 
 /* For Medium Devices */
 @media only screen and (min-width:768px) and (max-width:800px){
     .footerContainer{
+        max-width:740px;
         padding-left: 1rem;
     }
 }

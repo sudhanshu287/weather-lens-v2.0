@@ -12,7 +12,7 @@
     gap: 1.5rem;
   }
 .nav {
-    max-width: 930px;
+    max-width: 1200px;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,11 @@
     color: var(--text-color);
     font-weight: var(--font-medium);
 }
-
+.logoIcon{
+  font-size: 40px;
+  color:var(--first-color);
+  margin-right: 10px;
+}
 .navLogo:hover {
     color: var(--first-color);
 }
